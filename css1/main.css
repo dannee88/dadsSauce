@@ -1,0 +1,118 @@
+
+==============================================
+Contact Form Styling
+==============================================
+*/
+.error {
+	background-color: #FF675B;
+    border-radius: 3px;
+    color: #FFFFFF;
+    font-size: 15px;
+    padding: 5px;
+}
+#contact_form {
+	display: table;
+    margin: 0 auto;
+    width: 60%;
+    text-align: left;
+}
+#contact_form label {
+	font-family: 'Satisfy',sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 3em;
+    color: #ffffff;
+    opacity: 0.7;
+    display: block;
+    text-align: left;
+}
+textarea {
+	color: #262B30;
+	background-color: #FFFFFF;
+    border: medium none;
+    font-family: 'Raleway',sans-serif;
+    font-size: 18px;
+    padding: 15px;
+    width: 100%;
+    -webkit-appearance: none;
+    margin: 0;
+    border: none;
+    border-radius: 3px;
+    opacity: 0.9;
+    transition: all 0.3s ease-in-out;
+    outline: none;
+}
+textarea:focus {
+    opacity: 1.0;
+    -webkit-appearance: none;
+    border: none;
+    outline: none;
+}
+input[type=text] {
+	color: #262B30;
+	background-color: #FFFFFF;
+    border: medium none;
+    font-family: 'Raleway',sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    width: 100%;
+    -webkit-appearance: none;
+    margin: -9px;
+    border: none;
+    border-radius: 3px;
+    opacity: 0.9;
+    transition: all 0.3s ease-in-out;
+    outline: none;
+	}
+input[type=text]:focus {
+    opacity: 1.0;
+    -webkit-appearance: none;
+    border: none;
+} 
+input[type=submit] {
+    padding: 15px 40px;
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    text-align: center;;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    margin: 20px 0 auto;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #262B30;
+    color: rgba(255, 255, 255, 1); 
+    letter-spacing: 2px;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    border: none;
+    cursor: pointer;
+    float: left;
+}
+input[type=submit]:hover {   
+	text-decoration: none; 
+	background-color: rgba(255,255,255,1);
+	color: #0b86c8;
+    border: none;
+}
+input:focus {
+    outline: none;
+    -webkit-appearance: none;
+    border: none;
+}
+p.success { 
+    font-weight: 600; 
+    font-size: 28px;
+}
+/* mouse grab icon for Owl Carousel */
+.grabbing { 
+    cursor:url("../img/grabbing.png") 8 8, move;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+    height: 20px;
+}
+canvas { width: 100%; }
